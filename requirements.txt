@@ -1,5 +1,20 @@
-django
+# Django core
+Django>=5.0,<6.0
 djangorestframework
+
+# Production server
+gunicorn
+
+# Database adapter (PostgreSQL on Render)
+psycopg2-binary
+
+# Optional but useful
+django-cors-headers
+python-dotenv
+
+# Swagger docs
 drf-yasg
+
+# Celery for background tasks
 celery
 redis
